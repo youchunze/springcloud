@@ -7,3 +7,5 @@ spring:
     expose-session-attributes: true
     expose-spring-macro-helpers: true
     suffix: .ftl
+server:
+  port: 80

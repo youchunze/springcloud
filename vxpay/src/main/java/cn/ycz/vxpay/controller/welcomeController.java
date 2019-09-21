@@ -17,7 +17,7 @@ import java.util.Map;
 @Controller
 @Slf4j
 public class welcomeController {
-    @GetMapping("/hello")
+    @GetMapping("/")
     public ModelAndView hello(Map<String,Object> map){
         ModelAndView modelAndView = new ModelAndView("index/index");
 
