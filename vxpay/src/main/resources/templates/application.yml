@@ -1,4 +1,14 @@
 spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: /k3CW7Z6A22F6u2NBxjNNiH9YVkOnWXaaJJF85Hpm86/F0zPXEOIiBCnKgZUXF9GAquEZ5vTKiYD2d/BMbzp6P60aZ6djjUz
+    username: VJ4cPKhyu7o/mXpmC31JpQ==
+    password: ZsP4NEei4g1jYL6DZBgsvO2qsJUC9qi0
+  jpa:
+    show-sql: true
+  jackson:
+  #  当返回给前端的值为null时,不返回该字段
+  #    default-property-inclusion: non_null
   freemarker:
     template-loader-path: classpath:/templates/
     charset: utf-8
@@ -9,3 +19,14 @@ spring:
     suffix: .ftl
 server:
   port: 80
+jasypt:
+  encryptor:
+    password: ycz
+
+wechat:
+  mpAppId: wxbb88a700afa6dc82
+  mpAppSecret: f73eb8887db000027f36013a792a72f7
+  mchId:
+  mchkey:
+  keyPath:
+  notify:
